@@ -23,6 +23,7 @@
     "typechain": "^8.1.0"
   },
   "scripts": {
+    "deploy":"yarn hardhat deploy",
     "test":"yarn hardhat test",
     "test:staging":"yarn hardhat test --network goerli",
     "lint":"yarn solhint 'contracts/*.sol'",
